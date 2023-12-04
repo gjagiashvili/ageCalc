@@ -1,0 +1,20 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,800&family=Overpass&family=Roboto&family=Space+Mono:wght@700&family=Ubuntu&display=swap');
+
+:root {
+  --Purple: hsl(259, 100%, 65%);
+  --Light-red: hsl(0, 100%, 67%);
+
+  /*Neutral*/
+
+  --White: hsl(0, 0%, 100%);
+  --Off-white: hsl(0, 0%, 94%);
+  --Light-grey: hsl(0, 0%, 86%);
+  --Smokey-grey: hsl(0, 1%, 44%);
+  --Off-black: hsl(0, 0%, 8%);
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: var(--Light-grey);
+}

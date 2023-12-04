@@ -1,0 +1,93 @@
+.cards {
+    background-color: var(--White);
+    border-radius: 20px 20px 100px 20px;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+  }
+  
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+    padding: 3rem 0.5rem;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--Light-grey);
+  }
+  
+  .inputs > input {
+    width: 70%;
+    height: 20px;
+    outline: none;
+    font-size: 1.2rem;
+    font-family: poppins;
+    border: 1px solid var(--Light-grey);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+  }
+  
+  .inputs > h1,
+  .inputs > h2,
+  .inputs > h3 {
+    color: var(--Smoke-grey);
+    font-size: 0.7rem;
+    margin: 0;
+  }
+  .button {
+    border: none;
+    background-color: var(--Purple);
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 40%;
+    top: 83%;
+  }
+  .button > img {
+    width: 50%;
+  }
+  
+  .results {
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  .errorText {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+   
+  .cards {
+    width: 40%;
+    margin: 10rem auto;
+  }
+
+  .form {
+    margin: 0 2rem;
+  }
+
+  .inputs > input {
+    cursor: pointer;
+  }
+
+  .button {
+    left: 90%;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: black;
+  }
+
+  .inputs > input {
+    margin-bottom: 0;
+  }
+
+  
