@@ -5,7 +5,10 @@
     margin: 0 auto;
     padding-bottom: 1rem;
   }
+
   
+
+
   .form {
     display: flex;
     align-items: center;
@@ -18,19 +21,7 @@
     margin: 0 auto;
     border-bottom: 1px solid var(--Light-grey);
   }
-  
-  .inputs > input {
-    width: 70%;
-    height: 20px;
-    outline: none;
-    font-size: 1.2rem;
-    font-family: poppins;
-    border: 1px solid var(--Light-grey);
-    border-radius: 10px;
-    margin-bottom: 1rem;
-    padding: 0.8rem;
-  }
-  
+
   .inputs > h1,
   .inputs > h2,
   .inputs > h3 {
